@@ -5,7 +5,7 @@ SELECT
 FROM
     january_jobs
 
-UNION ALL
+UNION ALL -- return EVERYTHING includes duplicates
 
 SELECT
     job_title_short,
